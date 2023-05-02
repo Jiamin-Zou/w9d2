@@ -1,1 +1,85 @@
 /* Your code here */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+h1 {
+    font-weight:bold;
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 30px;
+    align-items: center;
+    /* align-content: center; */
+}
+ul {
+    display: flex;
+    width: 480px;
+    flex-wrap: wrap;
+    border: 5px solid blue;
+    background-color: aqua;
+}
+
+ul li {
+    height: 150px;
+    width: 150px;
+    border: 5px solid blue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.message {
+    margin: 30px;
+    padding: 10px;
+    width: 600px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+    border: ridge 5px yellowgreen;
+    text-shadow: 2px 2px white;
+    background-color: aqua;
+    text-align: center;
+}
+
+.replay-btn {
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background-color: yellow;
+}
+.x, .o {
+    background-color: lightgray;
+}
+
+.x {
+    color: green;
+}
+
+.o {
+    color: red;
+}
+
+.x:hover, .o:hover {
+    background-color: lightgray;
+}
+
+.winner, .winner:hover {
+    background-color: lightgreen;
+}

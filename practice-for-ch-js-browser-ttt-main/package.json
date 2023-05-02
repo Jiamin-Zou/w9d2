@@ -1,0 +1,16 @@
+{
+  "name": "browser-ttt",
+  "version": "1.0.0",
+  "description": "Browser Tic Tac Toe",
+  "private": true,
+  "scripts": {
+    "start": "webpack --watch --mode=development"
+  },
+  "keywords": [],
+  "author": "Jiamin Zou",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
